@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="left1"><img src="kanban icon.png" alt=""></div>
+            <div class="left2"><img src="search.png" alt=""><p>Search Issue</p></div>
+            <div class="left3"><img src="plus.png" alt=""><p>Create Issue</p></div>
+            <div class="left4"><img src="about.png" alt=""><p>About</p></div>
+        </div>
+        <div class="center">
+            <div class="center1">
+                <div class="center11">
+                    <img src="singularity_icon.png" alt="">
+                </div>
+                <div class="center12">
+                    <p>singularity 2</p>
+                    <p>Software project</p>
+                </div>
+            </div>
+            <div class="center2">
+                <img src="kanban_board.png" alt="">
+                <p>Kanban Board</p>
+            </div>
+            <div class="center2">
+                <img src="project_settings.png" alt="">
+                <p>Project settings</p>
+            </div>
+            <div class="center_border"></div>
+            <div class="center2">
+                <img src="Releases.png" alt="">
+                <p>Releases</p>
+            </div>
+            <div class="center2">
+                <img src="Issues.png" alt="">
+                <p>Issues and filters</p>
+            </div>
+            <div class="center2">
+                <img src="Pages.png" alt="">
+                <p>Pages</p>
+            </div>
+            <div class="center2">
+                <img src="Reports.png" alt="">
+                <p>Reports</p>
+            </div>
+            <div class="center2">
+                <img src="Components.png" alt="">
+                <p>Components</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right1">
+                <p>Projects</p>
+                <span class="slash">/</span>
+                <p>singularity 2</p>
+                <span class="slash">/</span>
+                <p>Kanban Board</p>
+            </div>
+            <div class="right2">
+                <p class="kanban">Kanban board</p>
+                <a href="https://github.com/oldboyxx/jira_clone" class="link">
+                  <button class="github">
+                    <img src="github.png" alt="">
+                    <p>Github Repo</p>
+                  </button>  
+                </a>
+            </div>
+            <div class="right3">
+                <div class="right31">
+                    <img src="search1.png" alt="">
+                    <input type="text">
+                </div>
+                <div class="right32">
+                    <img src="img1.png" alt="">
+                    <img src="img2.png" alt="">
+                    <img src="img3.png" alt="">
+                </div>
+                <div class="right33">
+                    <button>Only My Issues</button>
+                </div>
+                <div class="right33">
+                    <button>Recently Updated</button>
+                </div>
+            </div>
+            <div class="right4">
+                <div class="right41">
+                    <div class="right411">
+                        Backlog <span class="number">2</span>
+                    </div>
+                    <div class="right412">
+                        <div class="right4121" class="right4121a" draggable="true">
+                            <div class="right41211">
+                                <p class="para">Try dragging issues to different columns to transition their status.</p>
+                                <div class="right412111">
+                                    <div class="right4121111">
+                                        <img src="mark1.png" alt="">
+                                        <img src="mark2.png" alt="">
+                                    </div>
+                                    <div class="right4121112">
+                                        <img src="img2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right4121" class="right4121a" draggable="true">
+                            <div class="right41211">
+                                <p class="para">2nd task</p>
+                                <div class="right412111">
+                                    <div class="right4121111">
+                                        <img src="mark1.png" alt="">
+                                        <img src="mark2.png" alt="">
+                                    </div>
+                                    <div class="right4121112">
+                                        <img src="img2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+                <div class="right41">
+                    <div class="right411">
+                        SELECTED FOR DEVELOPMENT <span class="number">1</span>
+                    </div>
+                    <div class="right412">
+                        <div class="right4121" draggable="true">
+                            <div class="right41211">
+                                <p class="para">3rd task</p>
+                                <div class="right412111">
+                                    <div class="right4121111">
+                                        <img src="mark1.png" alt="">
+                                        <img src="mark2.png" alt="">
+                                    </div>
+                                    <div class="right4121112">
+                                        <img src="img2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="right41">
+                    <div class="right411">
+                        IN PROGRESS <span class="number">1</span>
+                    </div>
+                    <div class="right412">
+                        <div class="right4121" draggable="true">
+                            <div class="right41211">
+                                <p class="para">4th task</p>
+                                <div class="right412111">
+                                    <div class="right4121111">
+                                        <img src="mark1.png" alt="">
+                                        <img src="mark2.png" alt="">
+                                    </div>
+                                    <div class="right4121112">
+                                        <img src="img2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right41">
+                    <div class="right411">
+                        Done <span class="number">1</span>
+                    </div>
+                    <div class="right412">
+                        <div class="right4121" draggable="true">
+                            <div class="right41211">
+                                <p class="para">5th task</p>
+                                <div class="right412111">
+                                    <div class="right4121111">
+                                        <img src="mark1.png" alt="">
+                                        <img src="mark2.png" alt="">
+                                    </div>
+                                    <div class="right4121112">
+                                        <img src="img2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="first1">
+        <div class="first">
+            <div class="firstleft">
+               <div class="firstleft1">
+                   <img src="mark1.png" alt="">
+                   <p>STORY-1767370</p>
+               </div>
+               <div class="firstleft2">
+                   <p>Try dragging issues to different columns to transition their status.</p>
+               </div>
+               <div class="firstleft3">
+                   <p class="head">Description</p>
+                   <div class="firstleft3A">
+                       <p>An issue's status indicates its current place in the project's workflow.Here's a list of the statuses that come with JIRA products, depending on what projects you've created on your site.</p>
+                       <h4>Jira software issue statuses:</h4>
+                       <h3 class="background">Backlog</h3>
+                       <p>The issue is waiting to be picked up in a future sprint.</p>
+                       <h3 class="background">Selected</h3>
+                       <p>The issue is open and ready for the assignee to start work on it.</p>
+                       <h3 class="blue">In Progress</h3>
+                       <p>This issue is being actively worked on at the moment by the assignee.</p>
+                       <h3 class="green">Done</h3>
+                       <p>Work has finished on the issue.</p>
+                   </div>  
+               </div>
+               
+               <div class="firstleft4">
+                   <p class="head">Comments</p>
+                   <div class="firstleft41">
+                       <img src="img1.png" alt="">
+                       <div class="firstleft411A">
+                           <textarea name="" id="" cols="50" rows="2" class="textarea">Add a comment...</textarea>
+                           <p><span class="bold">Pro tip:</span> press <span class="m">M</span> to comment</p>
+                           <div class="firstleft3B">
+                            <button class="save">Save</button>
+                            <button class="cancel">Cancel</button>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="firstleft41 firstleft41a">
+                       <img src="img1.png" alt="">
+                       <div class="firstleft411B">
+                           <p class="gray"><span class="bold">Lord Gaben</span>   4 months ago</p>
+                           <p class="B">In the twilight rain </p>
+                           <p class="B">these briliant-hued hibiscus - </p>
+                           <p class="B">A lovely sunset.</p>
+                           <p class="gray">Edit . Delete</p>
+                       </div>
+                   </div>
+               </div>
+            </div>
+            <div class="firstright">
+               <div class="firstright1">
+                   <div class="firstright11">
+                       <img src="feedback.png" alt="">
+                       <p>Give feedback</p>
+                   </div>
+                   <div class="firstright11">
+                       <img src="copylink.png" alt="">
+                       <p>Copy link</p>
+                   </div>
+                   <div class="firstright11">
+                       <img src="delete.png" alt="">
+                   </div>
+                   <div class="firstright11">
+                       <img src="close.png" alt="" class="close">
+                   </div>
+               </div>
+               <div class="firstright2">
+                  <p class="headbold">STATUS</p>
+                  <div class="nash">
+                   <p class="background1 answer">BACKLOG </p>
+                  </div>
+                  <div class="firstright31">
+                   <div class="firstright311">
+                       <p style="margin-bottom: 0px;">Search</p>
+                   </div>
+                   <div class="firstright311">
+                       <p class="background1 opt1">BACKLOG</p>
+                   </div>
+                   <div class="firstright311">
+                       <p class="background1 opt2">SELECTED FOR DEVELOPMENT</p>
+                   </div>
+                   <div class="firstright311">
+                       <p class="blue opt3">IN PROGRESS</p>
+                   </div>
+                   <div class="firstright311">
+                       <p class="green opt4">DONE</p>
+                   </div> 
+                  </div>
+               </div>
+               <div class="firstright3">
+                   <p class="headbold">ASSIGNEES</p>
+                   <p class="gray unassigned ans1">Unassigned</p>
+                   <div class="firstright31a">
+                       <div class="firstright311a">
+                           <p style="margin-bottom: 0px;">Search</p>
+                       </div>
+                       <div class="firstright311a opt1a">
+                           <img src="img3.png" alt=""><p>Pickle Rick</p>
+                       </div>
+                       <div class="firstright311a opt2b">
+                           <img src="img2.png" alt=""><p>Baby Yoda</p>
+                       </div>
+                       <div class="firstright311a opt3c">
+                           <img src="img1.png" alt=""><p>Lord Gaben</p>
+                       </div>
+                   </div>
+               </div>
+               <div class="firstright4">
+                   <p class="headbold">REPORTER</p>
+                   <p class="gray unassigned1 ans2">Assign Reporter</p>
+                   <div class="firstright31b">
+                       <div class="firstright311b">
+                           <p style="margin-bottom: 0px;">Search</p>
+                       </div>
+                       <div class="firstright311b opt1d">
+                           <img src="img3.png" alt=""><p>Pickle Rick</p>
+                       </div>
+                       <div class="firstright311b opt2e">
+                           <img src="img2.png" alt=""><p>Baby Yoda</p>
+                       </div>
+                       <div class="firstright311b opt3f">
+                           <img src="img1.png" alt=""><p>Lord Gaben</p>
+                       </div>
+                   </div>
+               </div>
+               <div class="firstright5">
+                   <p class="headbold">PRIORITY</p>
+                   <p class="gray unassigned2 ans3">Assign Priority</p>
+                   <div class="firstright31c">
+                       <div class="firstright311c">
+                           <p style="margin-bottom: 0px;">Search</p>
+                       </div>
+                       <div class="firstright311c opt1g">
+                           <img src="Highest.png" alt=""><p>Highest</p>
+                       </div>
+                       <div class="firstright311c opt2h">
+                           <img src="High.png" alt=""><p>High</p>
+                       </div>
+                       <div class="firstright311c opt3i">
+                           <img src="Medium.png" alt=""><p>Medium</p>
+                       </div>
+                       <div class="firstright311c opt4j">
+                           <img src="Low.png" alt=""><p>Low</p>
+                       </div>
+                       <div class="firstright311c opt5k">
+                           <img src="Lowest.png" alt=""><p>Lowest</p>
+                       </div>
+                   </div>
+               </div>
+               <div class="firstright6">
+                   <p class="headbold">ORIGINAL ESTIMATE(HOURS)</p>
+                   <input type="number" class="hours" value="14" onchange="changehours(this),calcwidth(this)">
+               </div>
+               <div class="firstright7">
+                   <div class="firstright7a">
+                       <p class="headbold">TIME TRACKING</p>
+                   </div>
+                   <div class="firstright7b">
+                       <div class="firstright71">
+                           <img src="Time.png" alt="">
+                       </div>
+                       <div class="firstright72">
+                           <div class="firstright72a">
+                               <div class="firstright721">
+       
+                               </div>
+                           </div>
+                           <div class="firstright722">
+                               <p style="margin-top: 5px;">12h logged</p>
+                               <p style="margin-top: 5px;" class="esthours">14h estimated</p>
+                           </div>
+                       </div>
+                   </div>  
+               </div>
+               <div class="firstright8">
+                   <p class="gray" style="margin-bottom: 8px; font-size: 13px;">Created at 4 months ago</p>
+                   <p class="gray" style="margin-top: 0px; font-size: 13px;">Updated at 2 days ago</p>
+               </div>
+            </div>
+       </div>
+    </div> 
+    <script src="app.js"></script>
+</body>
+</html>
